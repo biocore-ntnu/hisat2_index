@@ -1,0 +1,15 @@
+# ---------------------------------
+# HISAT2 index
+# ---------------------------------
+
+# if you want to use a pre-existing index, fill in here.
+# Leave blank to download and create from scratch
+
+# genome_url: link to genome
+genome_url: http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.masked.gz
+
+# fasta_genome: path where the genome is stored (or where you want to store it)
+fasta_genome: /media/local-disk2/home/endrebas/genomes/hg38.fa
+
+# where to store the hisat2 index
+index_prefix: /local/data/genomes/hisat2/hg38/genome # + .1.ht2, .2.ht2 etc
